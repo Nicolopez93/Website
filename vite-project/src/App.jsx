@@ -3,6 +3,7 @@ import index from './index.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import About from './Components/About'
+import Support from './Components/Support'
 function App() {
 
   return (
@@ -10,6 +11,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <About/>
+    <Support/>
     </>
   )
 }

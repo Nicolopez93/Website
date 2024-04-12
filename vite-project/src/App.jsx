@@ -6,6 +6,7 @@ import About from './Components/About'
 import Support from './Components/Support'
 import AllInOne from './Components/AllInOne'
 import Pricing from './Components/Pricing'
+import Footer from './Components/Footer'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
     <Support/>
     <AllInOne/>
     <Pricing/>
+    <Footer/>
     </>
   )
 }

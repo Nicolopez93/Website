@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
